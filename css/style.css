@@ -1,14 +1,50 @@
 
+p,h2{
+    color: yellow;
+    
+
+}
+
 body{
     background-color: #1a1b18;
     color: #d1d1c1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.2;
+    line-height: 1.6;
     margin: 0;
     padding: 20px;
+}
+
+.nav-link{
+    color: aqua;
+    font: 16px;
+    /*text-decoration: none;*/
+    
+}
+
+a.nav-link{
+    text-decoration: none;
+}
+
+#active-link{
+    color: red;
+    background: darkgray;
+    border-radius: 5px;
+}
+
+#menu{
+    background-color: rgb(169, 62, 5);
+    border-radius: 5px;
+    list-style: none;
+    padding
+}
+
+#menu li{
+    display: inline-block;
+    
 }
 
 main{
     max-width: 1000px;
     margin: 0 auto;
 }
+
